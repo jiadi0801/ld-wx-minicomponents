@@ -1,0 +1,14 @@
+<!--pages/infiniteScroll/infiniteScroll.wxml-->
+<infinite-scroll
+  content-class="pd-20"
+  height="500rpx"
+  loading="{{loading}}"
+  is-end="{{isEnd}}"
+  loading-slot="{{true}}"
+  bindrefreshing="resetFetch"
+  bindscrollend="scrollToFetch">
+  
+  <text slot="loading">自定义初始加载动画</text>
+  <view wx:for="{{list}}" wx:key="{{index}}" class="li-item"></view>
+
+</infinite-scroll>

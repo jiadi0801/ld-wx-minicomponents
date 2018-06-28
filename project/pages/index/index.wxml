@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <text>无限滚动列表（上拉更新，滚动加载）</text>
+  <navigator url="/pages/demo/infiniteScroll/infiniteScroll">
+    <button>infinite-scroll</button>
+  </navigator>
+</view>
