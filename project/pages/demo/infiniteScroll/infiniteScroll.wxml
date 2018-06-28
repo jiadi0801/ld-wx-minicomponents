@@ -1,4 +1,3 @@
-<!--pages/infiniteScroll/infiniteScroll.wxml-->
 <infinite-scroll
   content-class="pd-20"
   height="500rpx"

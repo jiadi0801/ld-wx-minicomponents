@@ -1,4 +1,3 @@
-<!--yepCom/infiniteScroll/infiniteScroll.wxml-->
 <scroll-view 
   id="inScroll"
   scroll-y="{{true}}"

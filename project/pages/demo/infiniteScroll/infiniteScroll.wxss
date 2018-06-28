@@ -1,4 +1,3 @@
-/* pages/infiniteScroll/infiniteScroll.wxss */
 .pd-20 {
   padding: 0 20rpx;
   background: hsl(197, 50%, 50%);

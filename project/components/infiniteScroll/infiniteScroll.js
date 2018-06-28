@@ -1,5 +1,3 @@
-// yepCom/infiniteScroll/infiniteScroll.js
-
 const RefreshTitle={
   pullToRefresh: '下拉更新...',
   releaseToRefresh: '松手更新...',

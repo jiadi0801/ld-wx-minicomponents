@@ -1,4 +1,3 @@
-// pages/infiniteScroll/infiniteScroll.js
 Page({
 
   /**

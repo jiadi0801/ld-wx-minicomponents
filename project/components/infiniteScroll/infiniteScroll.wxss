@@ -1,4 +1,3 @@
-/* yepCom/infiniteScroll/infiniteScroll.wxss */
 .lw {
   display: flex;
   align-items: center;
