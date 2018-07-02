@@ -22,3 +22,4 @@ TODO 自定义上拉加载loading容器
 |zIndex|String|99|指定容器的zIndex
 |bgColor|String|#fff|指定容器的背景色
 
+TODO switchTab 下禁用iPhoneX兼容，因此需要增加一个字段来手动禁用
