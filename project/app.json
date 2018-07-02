@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/demo/infiniteScroll/infiniteScroll",
+    "pages/demo/bottomBar/bottomBar",
     "pages/logs/logs"
   ],
   "window":{

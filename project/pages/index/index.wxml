@@ -4,4 +4,7 @@
   <navigator url="/pages/demo/infiniteScroll/infiniteScroll">
     <button>infinite-scroll</button>
   </navigator>
+  <navigator url="/pages/demo/bottomBar/bottomBar">
+    <button>bottomBar</button>
+  </navigator>
 </view>

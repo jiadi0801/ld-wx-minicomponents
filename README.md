@@ -14,3 +14,11 @@
 |bindscrollend|EventHandle||滚动到底部触发事件。
 
 TODO 自定义上拉加载loading容器
+
+### bottomBar(兼容iPhoneX)
+|属性名|类型|默认值|说明
+|----|---|---|---|
+|height|String|0rpx|指定容器高度
+|zIndex|String|99|指定容器的zIndex
+|bgColor|String|#fff|指定容器的背景色
+
