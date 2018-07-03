@@ -1,0 +1,126 @@
+/* pages/demo/waypoint/waypoint.wxss */
+.myshop {
+  position: relative;
+  height: 257rpx;
+  background: #fff;
+  box-shadow: 0 2rpx 8rpx 0 rgba(0, 0, 0, .09);
+}
+.bg-myshop {
+  position: absolute;
+  width: 240rpx;
+  height: 280rpx;
+  top: -70rpx;
+  right: 0;
+}
+.my-wrap {
+  position: relative;
+  padding-left: 30rpx;
+  padding-bottom: 20rpx;
+}
+.my-wrap .hd-w {
+  padding-top: 30rpx;
+  padding-bottom: 25rpx;
+}
+.my-wrap .hd {
+  font-size: 40rpx;
+  color: #333;
+}
+.shop-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30rpx;
+}
+.item-wrap {
+  padding-top: 27rpx;
+  padding-bottom: 20rpx;
+  border-bottom: solid 1rpx #e5e5e5;
+}
+.item-wrap:last-child {
+  border-bottom: 0 none;
+}
+.sw-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.shop-img {
+  width: 115rpx;
+  height: 115rpx;
+  border-radius: 6rpx;
+}
+.shop-info {
+  margin-left: 26rpx;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.shop-name {
+  color: #262626;
+  font-size: 32rpx;
+  display: -webkit-box;
+  max-width: 400rpx;
+  line-height: 38rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.shop-loc {
+  margin-top: 10rpx;
+  color: #999;
+  font-size: 22rpx;
+}
+.btn {
+  height: 40rpx;
+  width: 150rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 20rpx;
+  color: #fff;
+  background: #d83e3e;
+}
+
+.search-wrap {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.input-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  height: 60rpx;
+  width: 606rpx;
+  border-radius: 8rpx;
+  background: #fff;
+  border: solid 1rpx #d8d8d8;
+  box-sizing: border-box;
+}
+.input-search {
+  flex: 1;
+  font-size: 28rpx;
+  color: #262626;
+}
+.icon-search {
+  width: 40rpx;
+  height: 40rpx;
+}
+.btn-search {
+  height: 60rpx;
+  width: 80rpx;
+  line-height: 60rpx;
+  text-align: right;
+  border: 0 none;
+  background: transparent;
+}
+.result-list {
+  padding-top: 13rpx;
+  padding-left: 30rpx;
+}

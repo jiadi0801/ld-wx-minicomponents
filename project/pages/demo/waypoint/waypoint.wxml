@@ -1,0 +1,16 @@
+<!--pages/demo/waypoint/waypoint.wxml-->
+<view class="result-list">
+  <waypoint wx:for="{{list}}" wx:key="index" index="{{index}}">
+    <view class="shop-wrap item-wrap">
+      <view class="sw-wrap">
+        <image class="shop-img" src="http://oss.jiadi0801.cn/zhixing/avatar.jpg" />
+        <view class="shop-info">
+          <text class="shop-name">你好，中央三套你好</text>
+          <text class="shop-loc">北京 海淀</text>
+        </view>
+      </view>
+      <button class="btn">关注</button>
+    </view>
+  </waypoint>
+</view>
+

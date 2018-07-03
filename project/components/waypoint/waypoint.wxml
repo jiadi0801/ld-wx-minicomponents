@@ -1,0 +1,4 @@
+<!--components/waypoint/waypoint.wxml-->
+<view style="height:{{!height?'auto':height+'px'}};" class="_waypointroot">
+    <slot wx:if="{{!isOutOfView}}"></slot>
+</view>
