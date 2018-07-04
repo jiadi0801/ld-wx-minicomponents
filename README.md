@@ -2,7 +2,7 @@
 微信小程序组件
 
 ## component
-### infiniteScroll
+### infiniteScroll(功能丰富的无限滚动组件)
 |属性名|类型|默认值|说明
 |----|---|---|---|
 |height|String|0rpx|必须值，指定容器高度
@@ -15,7 +15,7 @@
 
 TODO 自定义上拉加载loading容器
 
-### bottomBar(兼容iPhoneX)
+### bottomBar(兼容iPhoneX的吸底功能容器)
 |属性名|类型|默认值|说明
 |----|---|---|---|
 |height|String|0rpx|指定容器高度
@@ -23,3 +23,8 @@ TODO 自定义上拉加载loading容器
 |bgColor|String|#fff|指定容器的背景色
 
 TODO switchTab 下禁用iPhoneX兼容，因此需要增加一个字段来手动禁用
+
+### stickyHeader(自动吸顶的组件容器)
+|属性名|类型|默认值|说明
+|----|---|---|---|
+|无|||
