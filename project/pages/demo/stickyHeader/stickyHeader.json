@@ -1,1 +1,5 @@
-{}
+{
+  "usingComponents": {
+		"sticky-header": "../../../components/stickyHeader/stickyHeader"
+	}
+}

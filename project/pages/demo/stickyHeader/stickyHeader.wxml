@@ -1,2 +1,12 @@
 <!--pages/demo/stickyHeader/stickyHeader.wxml-->
-<text>pages/demo/stickyHeader/stickyHeader.wxml</text>
+<view style="background:#e0f;height:1320rpx;">
+  <text>往下滚动</text>
+</view>
+<sticky-header>
+  <view style="background:#ef0;height:120rpx;">
+    <text>sticky header</text>
+  </view>
+</sticky-header>
+<view style="background:#0ef;height:2120rpx;">
+    <text>content</text>
+</view>
