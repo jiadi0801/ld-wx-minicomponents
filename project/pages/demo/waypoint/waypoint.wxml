@@ -1,4 +1,5 @@
 <!--pages/demo/waypoint/waypoint.wxml-->
+<text>小程序做waypoint性能不行</text>
 <view class="result-list">
   <waypoint wx:for="{{list}}" wx:key="index" index="{{index}}">
     <view class="shop-wrap item-wrap">
@@ -13,4 +14,3 @@
     </view>
   </waypoint>
 </view>
-

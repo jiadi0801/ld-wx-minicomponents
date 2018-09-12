@@ -1,4 +1,4 @@
-<scroll-view 
+<scroll-view
   id="inScroll"
   scroll-y="{{true}}"
   scroll-top="{{refreshHeight}}"

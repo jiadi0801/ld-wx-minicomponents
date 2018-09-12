@@ -1,10 +1,15 @@
 <!--index.wxml-->
 <view class="container">
-  <text>无限滚动列表（上拉更新，滚动加载）</text>
   <navigator url="/pages/demo/infiniteScroll/infiniteScroll">
     <button>infinite-scroll</button>
   </navigator>
   <navigator url="/pages/demo/bottomBar/bottomBar">
     <button>bottomBar</button>
+  </navigator>
+  <navigator url="/pages/demo/stickyHeader/stickyHeader">
+    <button>stickyHeader</button>
+  </navigator>
+  <navigator url="/pages/demo/waypoint/waypoint">
+    <button>waypoint</button>
   </navigator>
 </view>
