@@ -2,6 +2,15 @@
 微信小程序组件
 
 ## component
+### cropper(图片裁剪)
+|属性名|类型|默认值|说明
+|----|---|---|---|
+|src|String|''|待裁剪图片源
+|width|Number|750|裁剪宽度(单位rpx)
+|height|Number|750|裁剪高度(单位rpx)
+|bindcancel|EventHandle||取消裁剪，返回{src:this.properties.src,target:''}
+|bindcomplete|EventHandle||完成裁剪，返回{src:this.properties.src,target:`http://tmp/xxxx.png`}
+
 ### infiniteScroll(功能丰富的无限滚动组件)
 |属性名|类型|默认值|说明
 |----|---|---|---|
