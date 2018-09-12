@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/demo/waypoint/waypoint",
     "pages/index/index",
+    "pages/demo/waypoint/waypoint",
     "pages/demo/infiniteScroll/infiniteScroll",
     "pages/demo/bottomBar/bottomBar",
     "pages/logs/logs",
-    "pages/demo/stickyHeader/stickyHeader"
+    "pages/demo/stickyHeader/stickyHeader",
+    "pages/demo/cropper/cropper"
   ],
   "window": {
     "backgroundTextStyle": "light",

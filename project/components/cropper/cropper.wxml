@@ -1,0 +1,37 @@
+<view class="wrapper">
+  <scroll-view
+    class="src-wrap"
+    scroll-x="{{true}}"
+    scroll-y="{{true}}"
+  >
+    <image
+      src="{{src}}"
+      bindtouchstart="touchstart"
+      bindtouchmove="move"
+      bindtouchend="touchend"
+      id="imgRect"
+      style="width:{{curWidth}}rpx;height:{{curHeight}}rpx;margin:{{(windowHeight-180-boxHeight)/2/pixelRatio}}px {{(windowWidth-boxWidth)/2/pixelRatio}}px {{(180-10+(windowHeight-180-boxHeight)/2)/pixelRatio}}px {{(windowWidth-boxWidth)/2/pixelRatio}}px;"
+      mode="aspectFill"
+    />
+  </scroll-view>
+  <view
+    class="mask {{movingClass}}"
+    style="border-width:{{(windowHeight-180-boxHeight)/2/pixelRatio}}px {{(windowWidth-boxWidth)/2/pixelRatio}}px {{(180+(windowHeight-180-boxHeight)/2)/pixelRatio}}px {{(windowWidth-boxWidth)/2/pixelRatio}}px;"
+  >
+    <view class="corner top-left-corner"></view>
+    <view class="corner bottom-left-corner"></view>
+    <view class="corner bottom-right-corner"></view>
+    <view class="corner top-right-corner"></view>
+  </view>
+  <view class="btn-wrap">
+    <view class="btn btn-cancel" bindtap="cancel">
+      <text>取消</text>
+    </view>
+    <view class="btn btn-cut" bindtap="cut">
+      <text>裁剪</text>
+    </view>
+  </view>
+</view>
+<view style="height:0;overflow:hidden;position:relative;">
+  <canvas canvas-id="myCanvas_A" style="margin-left:999rpx;width:{{boxWidth}}px;height:{{boxHeight}}px;transform:scale(0.001)"/>
+</view>

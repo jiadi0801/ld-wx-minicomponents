@@ -1,0 +1,20 @@
+.video-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330rpx;
+  height: 330rpx;
+  background: #2b39da;
+}
+.form-input {
+  padding: 0 13rpx;
+  border-radius: 10rpx;
+  background: #393a44;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  height: 73rpx;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}

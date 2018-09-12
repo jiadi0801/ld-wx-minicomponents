@@ -1,0 +1,108 @@
+.wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: rgb(31, 31, 31);
+}
+
+.src-wrap {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.src-wrap::-webkit-scrollbar {
+  display:none;
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: rgba(0,0,0,.8);
+  box-sizing: border-box;
+  pointer-events: none;
+}
+.mask-light {
+  border-color: rgba(0, 0, 0, 0.267);
+}
+.corner {
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  border: solid 4rpx transparent;
+}
+.top-left-corner {
+  top: -4rpx;
+  left: -4rpx;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+.bottom-left-corner {
+  bottom: -4rpx;
+  left: -4rpx;
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+.top-right-corner {
+  top: -4rpx;
+  right: -4rpx;
+  border-top-color: #fff;
+  border-right-color: #fff;
+}
+.bottom-right-corner {
+  bottom: -4rpx;
+  right: -4rpx;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+}
+
+.btn-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 180rpx;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: solid 1rpx rgba(255,255,255,.4);
+}
+.btn {
+  width: 240rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+}
+.btn text {
+  font-size: 32rpx;
+}
+.btn-cancel {
+  background: #fff;
+  border: solid 1rpx #e3e3e3;
+}
+.btn-cancel text {
+  color: #333;
+}
+.btn-cut {
+  background: #d83d3e;
+}
+.btn-cut text {
+  color: #fff;
+}

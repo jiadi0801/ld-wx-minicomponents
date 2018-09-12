@@ -1,5 +1,8 @@
 <!--index.wxml-->
 <view class="container">
+  <navigator url="/pages/demo/cropper/cropper">
+    <button>图片裁剪</button>
+  </navigator>
   <navigator url="/pages/demo/infiniteScroll/infiniteScroll">
     <button>infinite-scroll</button>
   </navigator>
