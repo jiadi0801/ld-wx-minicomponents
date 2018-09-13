@@ -12,7 +12,7 @@
 |bindcomplete|EventHandle||完成裁剪，返回{src:this.properties.src,target:`'http://tmp/xxxx.png'`}
 
 ### cropper-img-picker(图片裁剪选择器)
-依赖`cropper组件
+依赖`cropper组件`
 
 |属性名|类型|默认值|说明
 |----|---|---|---|
