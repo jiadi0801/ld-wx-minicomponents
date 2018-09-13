@@ -1,0 +1,12 @@
+<view class="cropper-class" bindtap="addImg">
+  <slot></slot>
+</view>
+
+<ld-cropper
+  wx:if="{{!!cropperImg}}"
+  width="{{width}}"
+  height="{{height}}"
+  src="{{cropperImg}}"
+  bindcancel="cancelCut"
+  bindcomplete="getCutImgInfo"
+/>

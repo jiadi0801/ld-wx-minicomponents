@@ -123,8 +123,8 @@ Component({
             y: 0,
             width: boxWidth,
             height: boxHeight,
-            destWidth: boxWidth,
-            destHeight: boxHeight,
+            destWidth: this.properties.width,
+            destHeight: this.properties.height,
             canvasId: 'myCanvas_A',
             success: (res) => {
               const tmpPath = res.tempFilePath;
