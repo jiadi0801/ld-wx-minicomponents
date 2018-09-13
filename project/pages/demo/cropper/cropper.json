@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "ld-cropper": "../../../components/cropper/cropper"
+    "ld-cropper": "../../../components/cropper/cropper",
+    "cropper-img-picker": "../../../components/cropper-img-picker/cropper-img-picker"
   }
 }

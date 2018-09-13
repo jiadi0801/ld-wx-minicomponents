@@ -66,6 +66,17 @@ Page({
 
   },
 
+  showPicker() {
+    this.selectComponent('#cropper').addImg();
+  },
+
+  getCutImg({detail}) {
+    this.setData({
+      testimg: detail.src,
+      cutimg: detail.target
+    });
+  },
+
   chooseImg() {
     let me = this;
     wx.chooseImage({

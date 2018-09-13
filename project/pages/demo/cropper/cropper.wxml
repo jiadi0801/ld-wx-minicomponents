@@ -1,3 +1,4 @@
+<text>原图：</text>
 <view wx:if="{{!testimg}}" class="form-value video-input img-input" bindtap="chooseImg">
   <text>点我选择图片</text>
 </view>
@@ -14,6 +15,16 @@
   bindcomplete="getCutImgInfo"
 />
 
+<cropper-img-picker
+  id="cropper"
+  width="750"
+  height="750"
+  data-type="self"
+  bindcancel="getCutImg"
+  bindcomplete="getCutImg"
+/>
+
+<button bindtap="showPicker">图片选择器</button>
 <button bindtap="uploadImg">上传图片</button>
 <text>被裁剪的图片：</text>
 <view wx:if="{{!!cutimg}}" class="form-value video-input img-input">
